@@ -1,0 +1,73 @@
+@font-face{
+    font-family: Solodkiy sans-serif;
+    src: url(../fonts/Proxima\ Nova\ Regular.otf);
+}
+@font-face{
+    font-family: Artur sans-serif;
+    src: url(../fonts/ofont.ru_Futura\ PT.ttf);
+}
+@font-face{
+    font-family: beetroot sans-serif;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+  justify-content: center;
+    background: #464f54;
+}
+.wrapper{
+    margin-top: 150px;
+    width: 100%;
+max-width: 1062px;
+}
+.main{
+    filter:drop-shadow(0px 0px 15px #000);
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.line{
+height: 100%;
+position: absolute;
+width: 2px;
+margin-left: 67px;
+background: #e8eced;
+}
+.main__content{
+margin-left: 130px;
+}
+    &__top {
+        right: 0;
+    }
+    &__topinfo {
+        width: 875px;
+        background: #181818;
+        position: absolute;
+        right: 0;
+    }
+    &__toptext {
+
+    }
+    &__toptitle {
+
+    }
+    &__subtitle {
+
+    }
+
+    &__subinfo {
+
+    }
+    &__icons {
+
+    }
+    &__icon {
+
+    }
+
+
